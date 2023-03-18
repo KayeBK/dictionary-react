@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
       <header className="App-header">Dictionary App</header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="forest" />
       </main>
       <footer className="App-footer">Developed by Kaye Kinser, open-sourced on GitHub and hosted on Netlify.</footer>
       </div>

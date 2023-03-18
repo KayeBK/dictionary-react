@@ -1,10 +1,10 @@
 .App-header {
   background: #fff;
   text-align: center;
-  font-size: 55px;
-  margin-top: 55px;
-  padding: 55px;
+  font-size: 45px;
   border-radius: 20px;
+  margin: 55px 350px;
+  padding: 20px;
 }
 
 .App-footer {
@@ -13,12 +13,12 @@
   margin-top: 40px;
 }
 
-.Dictionary-container {
+.Dictionary section {
   background: #fff;
   text-align: center;
-  margin: 20px 400px;
   padding: 55px;
   border-radius: 20px;
+  margin: 55px;
 }
 
 .Dictionary-description {
@@ -27,17 +27,7 @@
   margin-bottom: 20px;
 }
 
-.word-container {
-  background: #fff;
-  padding: 55px;
-  border-radius: 20px;
-  margin: 20px 450px;
-  text-align: center;
-}
-
-.Meaning {
-  background: #fff;
-  border-radius: 20px;
-  padding: 25px;
-  margin-bottom: 15px;
+.Synonyms li {
+  list-style: none;
+  display: inline;
 }

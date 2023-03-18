@@ -5,22 +5,22 @@ export default function SearchResults(props) {
     if (props.data) {
         return (
             <div className="SearchResults">
-                <div className="word-container">
+                <section>
                 <h2 className="SearchResults-word">{props.data.word}</h2>
                 <em className="SearchResults-phonetic">{props.data.phonetic}</em>
-                </div>
+                </section>
                 <div className="row">
                 {props.data.meanings.map(function(meaning, index) {
                     return (
-                    <div className="col-3">
+                    <section className="col-3">
                     <div key={index}>
                         <Meaning meaning={meaning} />
                     </div>
-                    </div>
+                    </section>
                     );
                 })}
                 </div>
-                </div>
+            </div>
             );
     } else {
         return null;
