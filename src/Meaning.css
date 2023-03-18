@@ -1,0 +1,26 @@
+.Meaning h3 {
+ font-size: 22px;
+ line-height: 1.5;
+ font-weight: bold;
+ text-align: left;
+}
+
+.meaning-section {
+ background: #fff;
+ padding: 55px;
+ border-radius: 20px;
+ margin: 55px;
+}
+
+.definition {
+    font-size: 18px;
+    text-align: left;
+}
+
+.example {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: .7;
+    font-style: italic;
+    text-align: left;
+}

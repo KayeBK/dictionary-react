@@ -1,0 +1,13 @@
+.Dictionary section {
+    background: #fff;
+    text-align: center;
+    padding: 55px;
+    border-radius: 20px;
+    margin: 55px;
+  }
+  
+  .Dictionary-description {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
