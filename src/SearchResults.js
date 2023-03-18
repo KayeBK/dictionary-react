@@ -6,6 +6,7 @@ export default function SearchResults(props) {
         return (
             <div className="SearchResults">
                 <h2>{props.data.word}</h2>
+                <em>{props.data.phonetic}</em>
                 {props.data.meanings.map(function(meaning, index) {
                     return (
                     <div key={index}>
